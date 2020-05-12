@@ -1,3 +1,16 @@
+#menu{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+section.dish{
+  display:flex;
+  flex-direction: column;
+}
+p.photo{
+  order:-1;
+}
 body {
   font-family: Georgia, serif;
   line-height: 1.5em;
